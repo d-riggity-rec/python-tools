@@ -4,8 +4,8 @@ import pandas as pd
 from PIL import Image
 from io import BytesIO
 
-ygo_path = 'c:/scripts/python/ygo_data_small.json'   # file path for json data we're parsing
-ygo_img_fle = 'c:/scripts/ygo_img/'                  # new directory for downloaded .jpg files from json data
+ygo_path = 'ygo_card_data.json'                      # file path for json data we're parsing
+ygo_img_fle = 'Insert Local Directory'                  # new directory for downloaded .jpg files from json data
 
 ################### Read Local JSON file ##############################
 with open(ygo_path, 'r') as ygo_data:
