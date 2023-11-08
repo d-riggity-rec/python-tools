@@ -1,5 +1,4 @@
-# WELCOME TO DEREC'S python-tools 
+# Welcome to Derec's python-tools 
 
-# This repository is a showcase of sample projects I have completed in Python to date. 
-
-# For reference, the JSON Parsing Tool references the 'ygo_card_data.json' file in this repository.
+# Update 11/7/2023: uploaded the JSON Parsing tool and referenced .json file.
+# Update 11/8/2023: uploaded the Email & Attachments Parsing tool.
