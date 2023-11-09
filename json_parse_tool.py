@@ -37,20 +37,6 @@ for ygo_key, ygo_arr in ygo_json.items():
         nme = ygo_itm["name"]
         ########################################################################
 
-        ################  Fetch JPG file from web address ######################
-        card_num_dict = ygo_itm["card_images"][0]['image_url']
-        jpg_dir = ygo_img_fle + num_id + '.jpg'
-
-        ### Only un-hash lines below if you've established a directory for 'ygo_img_fle' ###
-
-        # response = requests.get(card_num_dict)
-        # if response.status_code == 200:
-        #     # Read the image data from the response
-        #     image_data = response.content
-        #     ygo_img = Image.open(BytesIO(image_data))
-            # ygo_img.save(jpg_dir)
-        ##############################################################
-
 
         ################# Print Dictionary Values ####################
         print(f'Name: {nme}; Card No.: {num_id}')
